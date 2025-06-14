@@ -18,11 +18,11 @@ namespace PhoneApp.Plugin
     {
       logger.Info("Loading plugins");
       var plugins = Directory.EnumerateFiles(".").Where(p => p.EndsWith(".Plugin.dll"));
-      logger.Info($"Found {plugins.Count()} plugin(s)");
+      logger.Info("Found {count} plugin(s)", plugins.Count());
 
       foreach (var pluginPath in plugins)
       {
-        logger.Info($"Loading {pluginPath}");
+        logger.Info("Loading {pluginPath}", pluginPath);
         Assembly assembly = Assembly.LoadFrom(pluginPath);
         foreach(var type in assembly.GetTypes())
         {
@@ -37,7 +37,7 @@ namespace PhoneApp.Plugin
 
             foreach (var author in authors)
             {
-              logger.Info($"Author {author.ToString()}");
+              logger.Info("Author {author}", author.ToString());
             }
 
             var constructors = type.GetConstructors();

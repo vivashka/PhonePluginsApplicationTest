@@ -1,0 +1,11 @@
+C:\Users\vovac\RiderProjects\PhonePluginsApplicationTest\PhoneApp\EmployeesFetchPlugin\obj\Debug\EmployeesFetchPlugin.csprojResolveAssemblyReference.cache
+C:\Users\vovac\RiderProjects\PhonePluginsApplicationTest\PhoneApp\EmployeesFetchPlugin\bin\Debug\EmployeesFetchPlugin.dll
+C:\Users\vovac\RiderProjects\PhonePluginsApplicationTest\PhoneApp\EmployeesFetchPlugin\bin\Debug\EmployeesFetchPlugin.pdb
+C:\Users\vovac\RiderProjects\PhonePluginsApplicationTest\PhoneApp\EmployeesFetchPlugin\bin\Debug\Newtonsoft.Json.dll
+C:\Users\vovac\RiderProjects\PhonePluginsApplicationTest\PhoneApp\EmployeesFetchPlugin\bin\Debug\NLog.dll
+C:\Users\vovac\RiderProjects\PhonePluginsApplicationTest\PhoneApp\EmployeesFetchPlugin\bin\Debug\PhoneApp.exe
+C:\Users\vovac\RiderProjects\PhonePluginsApplicationTest\PhoneApp\EmployeesFetchPlugin\bin\Debug\PhoneApp.pdb
+C:\Users\vovac\RiderProjects\PhonePluginsApplicationTest\PhoneApp\EmployeesFetchPlugin\bin\Debug\Newtonsoft.Json.xml
+C:\Users\vovac\RiderProjects\PhonePluginsApplicationTest\PhoneApp\EmployeesFetchPlugin\bin\Debug\NLog.xml
+C:\Users\vovac\RiderProjects\PhonePluginsApplicationTest\PhoneApp\EmployeesFetchPlugin\obj\Debug\EmployeesFetchPlugin.dll
+C:\Users\vovac\RiderProjects\PhonePluginsApplicationTest\PhoneApp\EmployeesFetchPlugin\obj\Debug\EmployeesFetchPlugin.pdb
