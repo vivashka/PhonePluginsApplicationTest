@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
 using EmployeesFetchPlugin.Mappers;
 using EmployeesFetchPlugin.Models;
@@ -25,18 +26,21 @@ namespace EmployeesFetchPlugin
             
             var content =  GetEmployees();
             
-            
             var root = Newtonsoft.Json.JsonConvert.DeserializeObject<Root>(content);
             var employeesList = EmployeesMapper.ToListEmployees(root);
 
             int index = 0;
-            string info = "";
-            foreach(var employee in employeesList)
-            {
-                info += string.Format("\n{0} Name: {1} | Phone: {2}", index, employee.Name, employee.Phone);
-                ++index;
-            }
+            StringBuilder info = new StringBuilder();
+
+            info.Append("Загружено объектов" + employeesList.Count);
+            // foreach(var employee in employeesList)
+            // {
+            //     info.Append(string.Format("\n{0} Name: {1} | Phone: {2}", index, employee.Name, employee.Phone));
+            //     ++index;
+            // }
             logger.Info(info);
+
+            employeesList.AddRange(args.Cast<EmployeesDTO>());
             return employeesList.Cast<DataTransferObject>();
         }
 

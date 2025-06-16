@@ -50,14 +50,8 @@
     </ItemGroup>
     <ItemGroup>
     <Compile Include="Mappers\EmployeesMapper.cs" />
-    <Compile Include="Models\Bank.cs" />
-    <Compile Include="Models\Company.cs" />
-    <Compile Include="Models\Coordinates.cs" />
-    <Compile Include="Models\Crypto.cs" />
-    <Compile Include="Models\Hair.cs" />
     <Compile Include="Models\Root.cs" />
     <Compile Include="Models\User.cs" />
-    <Compile Include="Models\Address.cs" />
     <Compile Include="Plugin.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
